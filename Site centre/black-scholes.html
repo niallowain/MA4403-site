@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Financial Mathematics</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<body>
+	
+
+<p>	 The <b>Black-Scholes</b> Formula for a European Call Option on an asset whose price at time \(t\) is\( S(t)\) </p>
+<p>
+$$(C(t,S(t)) = S(t)\Phi(d_1) - Ke^{-r(T-t)}\Phi(d2)$$ </p>
+<p>
+Where \(K\) is the strike price, \(r\) is the continuously compounded risk-free interest rate, \(\sigma\) is the volatility of the asset, 
+</p>
+<p>
+$$d_1 = {log(S(t)/K)+(r+{1 \over 2}\sigma^2)(T-t) \over \sigma \sqrt{T-t}}$$
+</p>
+<p>\(d_2 = d_1 - \sigma \sqrt{T-t}\) and \(\Phi\) is the cumulative distribution function for the standard normal distribution </p>
+
+</body>
+</html>
